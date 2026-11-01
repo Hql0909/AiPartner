@@ -1,0 +1,42 @@
+# ===== 本项目只保留主程序,其余练习脚本不纳入仓库 =====
+/*.py
+!/AiPartner.py
+
+/Package/
+/笔记/
+/images/
+/json_variable.json
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 密钥(切勿上传) =====
+.env
+.env.*
+.streamlit/secrets.toml
+
+# ===== 本地会话数据:包含个人聊天记录,不要上传 =====
+sessions/
+
+# ===== 临时文件 =====
+*.log
+*.tmp
